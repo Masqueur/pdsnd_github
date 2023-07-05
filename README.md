@@ -17,6 +17,18 @@ There are three .csv files for each city discussed above in the database. Each i
 6. User Type (Subscriber or Customer)
 The Chicago and New York City files also have a Gender column and a Birth Year column.
 
+## Code Structure
+The code is structured in the following order:
+1. Libraries that help with data handling are imported (time, NumPy, and pandas)
+   Note: the time library comes preinstalled with Python
+2. The .csv files are loaded
+3. The user is asked to type the city they want to look at, then the month, then the day of the week
+4. The data is filtered depending on what the user inputs (first, city, then month, then day) and loaded
+5. New columns are calculated and loaded (such as most frequent time of travel)
+6. The code displays all the results for the user
+7. The code asks the user if they would like to see raw data and responds accordingly
+8. The user is given the option to restart once all input options have been exhausted
+
 ### Error Handling
 When promting users to input what they want, they may make spelling mistakes or ask for something not among the options. Script was added to respond to any undesired answer to prevent the script from breaking and to inform the user to input a valid option like so:
 
