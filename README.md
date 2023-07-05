@@ -39,7 +39,7 @@ allowed_cities = ["new york city", "chicago", "washington"]
       print("Sorry, " + city + " is not an allowed city.")
       city = input("What city do you want to look at? Chicago, New York City, or Washington: ")
 ```
-Since Washington does not have gender or Birth Year data, if/else code was added to prevent the script from attempting to load that which doesn't exist. If the column is present, it loads it. If it doesn't, an else statemnt can be used to display a message to inform the user the data doesn't exist: 
+Since Washington does not have gender or Birth Year data, if/else code was added to prevent the script from attempting to load that which doesn't exist. If the column is present, it loads it. The `else` statement serves to offer the user an explanation for the absence of data, but isn't necessary. 
 ```python
 if 'Gender' in df:
             print("Gender Counts:\n", df['Gender'].value_counts())
