@@ -27,3 +27,5 @@ allowed_cities = ["new york city", "chicago", "washington"]
       print("Sorry, " + city + " is not an allowed city.")
       city = input("What city do you want to look at? Chicago, New York City, or Washington: ")
 ```
+### Credits
+The datasets and parts of the code were provided for by Udacity. Udacity's GPT and OpenAI's GPT assisted in fixing bugs and answering my questions. 
