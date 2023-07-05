@@ -17,7 +17,7 @@ There are three .csv files for each city discussed above in the database. Each i
 6. User Type (Subscriber or Customer)
 The Chicago and New York City files also have a Gender column and a Birth Year column.
 
-## Code Structure
+### Code Structure
 The code is structured in the following order:
 1. Libraries that help with data handling are imported (time, NumPy, and pandas)
    Note: the time library comes preinstalled with Python
