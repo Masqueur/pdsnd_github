@@ -39,5 +39,13 @@ allowed_cities = ["new york city", "chicago", "washington"]
       print("Sorry, " + city + " is not an allowed city.")
       city = input("What city do you want to look at? Chicago, New York City, or Washington: ")
 ```
+Since Washington does not have gender or Birth Year data, if/else code was added to prevent the script from attempting to load that which doesn't exist. Example being:
+```python
+if 'Gender' in df:
+            print("Gender Counts:\n", df['Gender'].value_counts())
+        else:
+            print("Gender information is not available for the selected city.")
+```
+
 ## Credits
 The datasets and parts of the code were provided for by Udacity. Udacity's GPT and OpenAI's GPT assisted in fixing bugs and answering my questions. 
