@@ -18,7 +18,7 @@ There are three .csv files for each city discussed above in the database. Each i
 The Chicago and New York City files also have a Gender column and a Birth Year column.
 
 ### Error Handling
-When promting users to input what they want, they may make spelling mistakes or ask for something not among the options. If so, code can be added to tell the user to input a valid option like so:
+When promting users to input what they want, they may make spelling mistakes or ask for something not among the options. Script was added to respond to any undesired answer to prevent the script from breaking and to inform the user to input a valid option like so:
 
 ```python
 allowed_cities = ["new york city", "chicago", "washington"]
