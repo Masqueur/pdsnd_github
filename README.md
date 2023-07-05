@@ -4,7 +4,7 @@
 This is a database of bike share data for three U.S. cities: Chicago, Washington, and New York City. The coding prompts the user to select the city they want to look at, the month, and the day of the week and shows them that data.
 
 ## Installation Requirements
-Python 3, NumPy, and pandas are required to run this program which can be dowloaded from the web. A text editor such as Atom or Sublime can be helpful in visualising the code, but is not necessary.
+Python 3, NumPy, and pandas are required to run this program which can be downloaded from the web. A text editor such as Atom or Sublime can be helpful in visualising the code, but is not necessary.
 
 ## Usage Instructions
 ### The Datasets
