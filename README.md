@@ -7,6 +7,16 @@ This is a database of bike share data for three U.S. cities: Chicago, Washington
 Python 3, NumPy, and pandas are required to run this program which can be dowloaded from the web. A text editor such as Atom or Sublime can be helpful in visualising the code, but is not necessary.
 
 ## Usage Instructions
+### The Datasets
+There are three .csv files for each city discussed above in the database. Each includes the following data from the first six months of 2017:
+1. Start Time (year-month-day, time)
+2. End Time (year-month-day, time)
+3. Trip Duration (in seconds)
+4. Start Station
+5. End Station
+6. User Type (Subscriber or Customer)
+The Chicago and New York City files also have a Gender column and a Birth Year column.
+
 ### Error Handling
 When promting users to input what they want, they may make spelling mistakes or ask for something not among the options. If so, code can be added to tell the user to input a valid option like so:
 
