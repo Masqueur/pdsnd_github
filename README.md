@@ -49,4 +49,4 @@ else:
 ```
 
 ## Credits
-The datasets and parts of the code were provided for by Udacity. Udacity's GPT and OpenAI's GPT assisted in fixing bugs and answering my questions. 
+The datasets and parts of the code were provided for by Udacity. Udacity's GPT assisted in fixing bugs and answering my questions. 
