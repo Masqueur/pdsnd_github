@@ -107,7 +107,7 @@ def load_data(city, month, day):
             days = ['Monday', 'Tuesday', 'Wednsday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
             day = days.index(day) + 1
 
-            # filter by month to create the new dataframe
+            # filter by day to create the new dataframe
             df = df[df['day'] == day]
         
 def time_stats(df):
@@ -211,6 +211,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+    # Displays the raw data until user tells it to stop:
     def display_data(df):
         i = 0
         show_data = input('Would you like to see the first 5 rows of data? Enter yes or no\n')
